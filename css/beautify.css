@@ -1,0 +1,37 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {	
+/*
+	background-color: blue, ...;
+	background-image: by default, this property repeats an image both horizontally and vertically;
+	background-repeat: repeat-x(repeat only horizontally);
+	background-attachment: fixed(not scroll with the rest of the page);
+	background-position: left top, ...;
+	background: shorthand
+*/
+	background-color: orange;
+	font-size: 100%;
+}
+
+#main {
+/* 
+	Hold several font names as a "fallback" system,
+	For commonly used font combinations: http://www.w3schools.com/cssref/css_websafe_fonts.asp
+*/
+	font-family: KaiTi, cursive, sans-serif;
+/*
+	Default size for paragraphs is 16px (16px = 1em)
+*/
+	font-size: 1.8em;
+/*
+	The font-weight property specifies the weight of a font.
+*/
+	font-weight: normal;
+	color: beige;
+	text-align: center;
+	margin: auto;
+}
